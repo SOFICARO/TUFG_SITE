@@ -1,0 +1,733 @@
+body {
+
+  box-sizing: border-box;
+  color: #FFC136;
+
+}
+
+.NosBG {
+  
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  background-color:slategray;
+
+}
+
+.Index{
+  background: url(img/CAMIONES.png) no-repeat center center fixed;
+  background-size: cover;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #FFC136;
+
+}
+
+
+
+.logoBar {
+
+  height: 50px;
+  background-color: #5b6368;
+  background: linear-gradient(to right, #ddac0c, #d31b1b,#333, #333,#333);
+  width: 200px;
+  margin-left: 5vw;
+  margin-top: 10px;
+  transform: skewX(-20deg);
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);
+position: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1000;
+
+}
+.logo-bar__logo{
+  max-width: 80%;
+  max-height: 80%;
+  transform: skewX(20deg);
+  z-index: 1000
+}
+
+.menu p{
+
+  font-size: 3em;
+  margin: 0;
+  font-weight: lighter;
+  color: aliceblue;
+  transform: skewX(20deg);
+
+
+
+}
+
+.TitleText h1 {
+  font-size: 3em;
+  text-align: right;
+  margin: 0;
+  font-weight: bold;
+  color: aliceblue;
+  display: flex;
+  justify-content: right;
+  margin-right: 10vw;
+  align-items: end;
+  height: 50vh; /* Set the height of the container */
+  
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.5);
+
+}
+
+.TitleText p {
+  font-size: 2em;
+  text-align: right;
+  color: aliceblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: justify;
+  justify-content: right;
+  margin-right: 10vw;
+  text-shadow: 2px 4px 3px rgba(0,0,0,0.5);
+
+}
+
+
+
+.menu {
+
+  font-weight: bold;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.3);
+  margin-top: 10px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 70%;
+  height: 50px;
+  background-color: #333;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  transform: skewX(-20deg);
+  margin-left: 16%;
+
+  width: 70vw; /* set a width */
+
+  display: flex;
+  justify-content: space-between;
+  
+  z-index: 1000
+}
+
+.menu a {
+  color: white;
+  text-decoration: none;
+  margin-right: 20px;
+  transform: skewX(20deg);
+  z-index: 1000
+}
+
+.content {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+
+
+footer {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: vw;
+  background-color: #222;
+
+  display: flex;
+
+  font-size: 1.2em;
+  align-items: center;
+  z-index: 100;
+  box-shadow: 0 -10px -10px rgba(0, 0, 0, 1);
+}
+
+.ImgLocation {
+
+  
+  background-repeat: no-repeat;
+
+  background-size: cover;
+  margin-left: 2vw;
+  height: 7vw;
+
+
+}
+
+.SocialMedia {
+  height: 5vw;
+  
+  display: flex;
+  margin-left: 5vw;
+}
+.Maps {
+  
+  
+  display: flex;
+margin-left: 50vw;
+}
+footer p {
+
+
+  color:aliceblue;
+  position: absolute;
+  
+  left: 10vw;
+  width: 40vw;
+
+  font-weight: Medium;
+  font-size: 150%;
+  
+  text-align: left;
+  
+}
+
+.FloatBanner{
+
+  font-size: 2em;
+  color:#333;
+  font-weight: bold;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+  margin-top: 100px;
+  position: fixed;
+  top: 30vw;
+  right: 0;
+  width: 30%;
+  height: 50px;
+  background-color: #FFC136;
+  display: flex;
+  align-items: center;
+  padding: 0 20px;
+  box-sizing: border-box;
+  transform: skewX(-20deg);
+  justify-items: right;
+
+
+  width: 30vw; /* set a width */
+
+
+}
+/**--------------------------NOSOTROS-----------------------------**/
+
+.FloatBannerCenter{
+  font-size: 6vh;
+  color:#333;
+  font-weight: bold;
+  box-shadow: -5px -5px 30px rgba(0, 0, 0, 1);
+  
+  position: absolute;
+  top: 70vh;
+  z-index: 2;
+  width: 30%;
+  height: 70px;
+  background-color: #FFC136;
+  display: flex;
+  
+  align-items: center;
+  box-sizing: border-box;
+  
+  justify-content: center;
+
+
+  width: 30vw; /* set a width */
+
+
+}
+
+.NosMain{
+  position: relative;
+  justify-items: center;
+  display: flex;
+  
+  align-items: center;
+  box-sizing: border-box;
+  
+  justify-content: center;
+  
+  
+  }
+
+.NosBGimg {
+  width: 99vw;
+  height: 99vh;
+
+  background: url(img/hombres-tiro-medio-discutiendo-al-aire-libre.jpg);
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  top: 0;
+  position: absolute;
+}
+
+.MainTextBox{
+  top: 700px;
+  height: 170vh;
+  width: 99vw;
+  background-color: #333;
+  position: absolute;
+
+}
+
+.TextLeft1{
+  top: 40px;
+  left: 15vw;
+ text-shadow: 0 10px 10px rgba(0, 0, 0, 0.5);;
+  z-index: 2;
+  position: absolute;
+  height: 400px;
+  width: 400px;
+
+
+}
+.TextRight1{
+  top: 80px;
+  left: 50vw;
+
+  z-index: 2;
+  position: absolute;
+  height: 400px;
+  width: 600px;
+  text-align: justify;
+  align-content: center;
+
+
+}
+.TextRight1 p{
+  color: aliceblue;
+  font-size: 150%;
+  
+  z-index: 3;
+
+
+}
+
+.MainTextBox H1{
+  color: aliceblue;
+  font-size: 800%;
+
+  z-index: 4;
+
+
+}
+.TextRight2 p{
+  color: #333;
+  font-size: 150%;
+  
+  z-index: 3;
+  position: absolute;
+  top: 80px;
+
+
+
+}
+
+.MainTextBox H2{
+  color: #333;
+  font-size: 300%;
+
+  z-index: 3;
+  position: absolute;
+
+
+}
+
+
+.TextLeft2{
+  top:450px;
+  left: 20vw;
+
+  z-index: 2;
+  position: absolute;
+  height: 400px;
+  width: 500px;
+
+
+}
+.TextLeft2 p{
+  color: #333;
+  font-size: 150%;
+  
+  z-index: 3;
+  position: absolute;
+  top: 80px;
+
+}
+
+.TextRight2{
+  top: 450px;
+  left: 55vw;
+
+  z-index: 2;
+  position: absolute;
+  height: 400px;
+  width: 500px;
+  
+
+
+}
+.YellowTextBox{
+
+  background-color:#FFC136;
+  top: 400px;
+  z-index: 1;
+  position: absolute;
+  height: 400px;
+  width: 85vw;
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.valores{
+
+position: absolute;
+width: 1000px; /* adjust the width and height to your needs */
+  height: 450px;
+
+  top :900px;
+  left :20vw;
+  display: flex;
+  justify-content:space-evenly;
+  align-items: center;
+
+}
+.circle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  border-radius: 50%;
+  width: 200px; /* adjust the width and height to your needs */
+  height: 200px;
+  background-color:#FFC136 ; /* optional: add a background color */
+  padding: 10px;
+  box-shadow: 0px 0px 10px rgba(0,0,0,0.5); /* optional: add a shadow effect */
+  
+
+}
+
+.circle-image {
+  width: 70%;
+  height: 70%;
+  
+  object-fit:contain;
+  z-index: 5;
+  align-items: center;
+  
+  margin-top: 3vh;
+}
+
+.circle-text {
+  
+  
+  color: aliceblue;
+  font-size: 25px;
+  text-align: center;
+ top: 330px;
+  position: absolute;
+}
+/**--------------------------Servicios-----------------------------**/
+.ServiciosBGimg {
+  width: 99vw;
+  height: 99vh;
+
+  background: url(img/aerial-view-busy-highway-intersection-full-traffic-daytime.jpg);
+  z-index: -1;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  top: 0;
+  position: absolute;
+}
+
+.img-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+  width: 200px; /* adjust the width and height to your needs */
+  height: 200px;
+
+  padding: 10px;
+
+  
+
+}
+
+.img-image {
+  width: 70%;
+  height: 70%;
+  
+  object-fit:contain;
+  z-index: 5;
+  align-items: center;
+  
+  margin-top: 3vh;
+}
+
+.img-text {
+  
+  font-weight: bold;
+  color: aliceblue;
+  font-size: 20px;
+  text-align: center;
+ top: 300px;
+  position: absolute;
+}
+
+.Transportables{
+
+  position: absolute;
+  width: 1000px; /* adjust the width and height to your needs */
+    height: 450px;
+  
+    top :0px;
+    left :24%;
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+  
+  }
+  .MainCenterText{
+    font-weight: bold;
+    color: aliceblue;
+    font-size: 40px;
+    text-align: center;
+   top: 470px;
+    position: absolute;
+    width: 30vw;
+    left: 35%;
+
+
+  }
+  .form-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 100%;
+    position: absolute;
+    top: 1700px;
+  }
+  
+  .form-image-container {
+    width: 50%;
+    display: flex;
+    justify-content:flex-end;
+    color: #45a049;
+  }
+  
+  .form-image {
+    width: 60%;
+    height: auto;
+
+  }
+  
+  .form-fields {
+    width: 30%;
+    padding: 20px;
+  }
+  
+  .form-control {
+    margin-bottom: 20px;
+  }
+  
+  .form-control label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-control input,
+  .form-control textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .form-button {
+    background-color:#FFC136;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .form-button:hover {
+    background-color: #45a049;
+  }
+  /**************Experiencia-*********************/
+
+  .ExpBGimg {
+    width: 99vw;
+    height: 99vh;
+  
+    background: url(img/costalito.jpg);
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    top: 0;
+    position: absolute;
+  }
+
+.Map{
+  position: absolute;
+  top: 100px;
+  left: 15%;
+  display: flex;
+  height: 45vh;
+  width: auto;
+
+
+
+
+}
+.clients{
+  position: absolute;
+  top: 600px;
+  left: 10vw;
+  display: flex;
+  height: auto;
+  width: 80%;
+
+}
+.ExpTextBox{
+  top: 700px;
+  height: 270vh;
+  width: 99vw;
+  background-color: #333;
+  position: absolute;
+
+}
+.ExpFloatBannerCenter{
+  font-size: 6vh;
+  color:#333;
+  font-weight: bold;
+  box-shadow: -5px -5px 30px rgba(0, 0, 0, 1);
+  
+  position: absolute;
+  top: 3000px;
+  z-index: 2;
+  width: 30%;
+  height: 70px;
+  background-color: #FFC136;
+  display: flex;
+  
+  align-items: center;
+  box-sizing: border-box;
+  
+  justify-content: center;
+
+
+  width: 30vw; /* set a width */
+
+
+}
+
+  /**************Contactanos-*********************/
+
+  .ContBGimg {
+    width: 99vw;
+    height: 99vh;
+  
+    background: url(img/camion-carretera-imagen-generada-ia.jpg);
+    z-index: -1;
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    opacity: 1;
+    top: 0;
+    position: absolute;
+  }
+  .ContFloatBannerCenter{
+    font-size: 6vh;
+    color:#333;
+    font-weight: bold;
+    box-shadow: -5px -5px 30px rgba(0, 0, 0, 1);
+    
+    position: absolute;
+    top: 1680px;
+    z-index: 2;
+    width: 30%;
+    height: 70px;
+    background-color: #FFC136;
+    display: flex;
+    
+    align-items: center;
+    box-sizing: border-box;
+    
+    justify-content: center;
+  
+  
+    width: 30vw; /* set a width */
+  
+  
+  }
+
+  .ContTextBox{
+    top: 700px;
+    height: 130vh;
+    width: 99vw;
+    background-color: #333;
+    position: absolute;
+   display: flex;
+   justify-content: center;
+  
+  }
+  .contact-cards {
+    display: flex;
+    justify-content: space-between;
+    
+    width: 1000px;
+    margin: 0 auto;
+    flex-wrap: wrap;
+    top: 80px;
+  
+    position: absolute;
+    justify-content: center;
+  }
+  
+  .contact-card {
+    width: 15vw;
+    margin-bottom: 20px;
+    text-align: center;
+    padding-left: 1vw;
+    padding-right: 1vw;
+  }
+  
+  .contact-photo {
+    width: 100%;
+    height: auto;
+
+    margin-bottom: 10px;
+    object-fit: cover;
+    aspect-ratio: 1/1;
+  }
+  
+  .contact-name {
+    color: #ffc107;
+    font-size: 1.2em;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  .contact-position {
+    color: #fff;
+    font-size: 0.9em;
+  }
